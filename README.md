@@ -66,9 +66,6 @@ icc-ppw-u1-mi_pagina_web/
 ├── script.js
 └── README.md
 ```
-
- * CAMBIAR SEGUN SU ESTRUCTURA
-
 ---
 
 ### 2. Implementación en HTML
@@ -78,47 +75,52 @@ Los nuevos archivos se enlazaron dentro del documento `index.html` de la siguien
 **En el `<head>` (para el CSS):**
 
 ```html
-COMLETAR
+<link rel="stylesheet" href="style.css">
 ```
 
 **Antes de cerrar el `<body>` (para el JavaScript):**
 
 ```html
-COMLETAR
+<script src="script.js"></script>
 ```
 
 ---
 
 ### 3. Estilos aplicados con CSS
 
-* COMLETAR LA TABLA
+* COMPLETAR LA TABLA
 
-| Elemento                    | Estilo implementado                                            | Descripción                             |
-| --------------------------- | -------------------------------------------------------------- | --------------------------------------- |
-| `body`                      |         |         |
-| `header`                    | |
-| `table`                     |                              |                  |
-| `button`                    |                                   |   |
-| `section`                   |                                        |          |
-| `progress`                  | `accent-color: #007bff; width: 100%;`                          | Personalización de la barra de progreso |
+| Elemento | Estilo implementado | Descripción |
+|---|---|---|
+| `body` | `background-color: #f4f4f4; font-family: Arial, sans-serif;` | Define la tipografía y un fondo suave, cumpliendo con los requisitos obligatorios. |
+| `header` | `background-color: #007bff; color: white; padding: 30px 0;` | Define el color principal (azul), centra el texto y proporciona espaciado. |
+| `table` | `width: 100%; border-collapse: collapse;` | Asegura que la tabla ocupe todo el ancho de su contenedor y une los bordes. |
+| `button` | `background-color: #007bff; border-radius: 5px; transition: 0.3s;` | Estiliza el botón, lo redondea y usa la propiedad `transition` para un efecto suave. |
+| **`section`** | **`box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);`** | **Propiedad Nueva 1:** Agrega una sombra sutil para dar profundidad a las secciones. |
+| **`h2`** | **`letter-spacing: 1.5px;`** | **Propiedad Nueva 2:** Aumenta el espaciado entre las letras del título de las secciones. |
+| `progress` | `accent-color: #007bff; width: 100%;` | Personalización de la barra de progreso |
 
-
-**Ejemplo en el código:**
-
-AGREGAR DOS EJEMPLOS DE SU CODIGO CSS
+**Ejemplo en el código (AGREGAR DOS EJEMPLOS DE SU CODIGO CSS):**
 
 ```css
+/* Propiedad Nueva 1: box-shadow en section */
+section {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ejemplo base del botón y Propiedad Nueva 2: transition */
 button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 15px;
-  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+    transition: background-color 0.3s ease; 
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #0056b3;
 }
 ```
 
