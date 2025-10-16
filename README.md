@@ -1,14 +1,15 @@
+
 # Programación y Plataformas Web (PPW)
 
 ---
 
-# Práctica 1 – Explorando los Estándares Web con HTML, CSS y JavaScript
+#  Práctica 1 – Explorando los Estándares Web con HTML, CSS y JavaScript
 
-**Asignatura:** Programación y Plataformas Web
-**Unidad:** 1.2 – Estándares Web
-**Estudiante:** Ariel Calle Steven
-**Repositorio:** [https://github.com/ArielCalleSteven/icc-pmw-U1-Proyecto](https://github.com/ArielCalleSteven/icc-pmw-U1-Proyecto)
-**Página desplegada (GitHub Pages):** **[COMLETAR AQUÍ CON EL ENLACE REAL DE TU PÁGINA PUBLICADA]**
+**Asignatura:** Programación y Plataformas Web  
+**Unidad:** 1.2 – Estándares Web  
+**Estudiante:** Pablo Torres
+**Repositorio:** [https://github.com/PabloT18/icc-ppw-u1-miPrimeraPagina](https://github.com/PabloT18/icc-ppw-u1-miPrimeraPagina)  
+**Página desplegada (GitHub Pages):** [https://pablot18.github.io/icc-ppw-u1-miPrimeraPapina/](https://pablot18.github.io/icc-ppw-u1-miPrimeraPapina/)  
 
 ---
 
@@ -35,20 +36,123 @@
 **Código usado:**
 ```html
 <figure>
-  <img src="[https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg](https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg)" alt="Logo HTML5" width="100">
-  <figcaption>Logo de HTML5</figcaption>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="Logo HTML5">
+  <figcaption>Logo de HTML5</figcaption>
 </figure>
 
 <progress value="70" max="100">70%</progress>
+```
 
+
+---
 
 #  Práctica 2 – Adición de CSS y JavaScript
+---
 
 ### 1. Archivos agregados
 
-| Archivo | Descripción | Ubicación |
+| Archivo     | Descripción                                                                                         | Ubicación                 |
 | ----------- | --------------------------------------------------------------------------------------------------- | ------------------------- |
 | `style.css` | Contiene todos los estilos visuales del sitio (colores, tipografía, márgenes, botones, tabla, etc.) | Carpeta raíz del proyecto |
-| `script.js` | Contiene las funciones y eventos JavaScript que agregan comportamiento dinámico | Carpeta raíz del proyecto |
+| `script.js` | Contiene las funciones y eventos JavaScript que agregan comportamiento dinámico                     | Carpeta raíz del proyecto |
 
 Estructura final del proyecto:
+
+```
+icc-ppw-u1-mi_pagina_web/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+ * CAMBIAR SEGUN SU ESTRUCTURA
+
+---
+
+### 2. Implementación en HTML
+
+Los nuevos archivos se enlazaron dentro del documento `index.html` de la siguiente forma:
+
+**En el `<head>` (para el CSS):**
+
+```html
+COMLETAR
+```
+
+**Antes de cerrar el `<body>` (para el JavaScript):**
+
+```html
+COMLETAR
+```
+
+---
+
+### 3. Estilos aplicados con CSS
+
+* COMLETAR LA TABLA
+
+| Elemento                    | Estilo implementado                                            | Descripción                             |
+| --------------------------- | -------------------------------------------------------------- | --------------------------------------- |
+| `body`                      |         |         |
+| `header`                    | |
+| `table`                     |                              |                  |
+| `button`                    |                                   |   |
+| `section`                   |                                        |          |
+| `progress`                  | `accent-color: #007bff; width: 100%;`                          | Personalización de la barra de progreso |
+
+
+**Ejemplo en el código:**
+
+AGREGAR DOS EJEMPLOS DE SU CODIGO CSS
+
+```css
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+```
+
+---
+
+###  4. Interactividad agregada con JavaScript
+
+El archivo `script.js` incorpora dos acciones básicas:
+
+1. **Agregar una nueva fila a la tabla al presionar el botón**
+
+   ```javascript
+   document.getElementById("agregarFila").addEventListener("click", () => {
+     const tabla = document.querySelector("table");
+     const nuevaFila = tabla.insertRow();
+     nuevaFila.innerHTML = "<td>&lt;article&gt;</td><td>Sección independiente del contenido</td>";
+   });
+   ```
+
+2. **Cambiar el color del título al pasar el mouse por encima**
+
+   ```javascript
+   const titulo = document.getElementById("titulo");
+   titulo.addEventListener("mouseover", () => {
+     titulo.style.color = "orange";
+   });
+   titulo.addEventListener("mouseout", () => {
+     titulo.style.color = "white";
+   });
+   ```
+
+
+## Capturas de pantalla del proyecto final
+
+* Agregar su captura de pantalla del proyecto final funcionando en el navegador, de ambas versiones (sin y con CSS/JS)
+
+![alt text](<Captura de pantalla 2025-10-14 a la(s) 3.35.33 p. m..png>)
