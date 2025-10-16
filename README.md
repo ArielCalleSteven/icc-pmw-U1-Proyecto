@@ -159,8 +159,8 @@ El archivo `script.js` incorpora dos acciones básicas:
 
 ---
 ### Versión 1: Solo Estructura HTML (Sin CSS/JS)
-![Captura de la estructura HTML] (./captura-html-puro.png)
+![Captura de la estructura HTML] (./captura_html.png)
 
 ### Versión 2: Diseño Final (Con CSS/JS)
-![Captura de la versión final] (./captura-final.png)
+![Captura de la versión final] (./captura_final.png)
 ---
