@@ -7,8 +7,8 @@
 
 **Asignatura:** Programación y Plataformas Web  
 **Unidad:** 1.2 – Estándares Web  
-**Estudiante:** Pablo Torres
-**Repositorio:** [https://github.com/PabloT18/icc-ppw-u1-miPrimeraPagina](https://github.com/PabloT18/icc-ppw-u1-miPrimeraPagina)  
+**Estudiante:** Ariel Calle
+**Repositorio:** [https://github.com/ArielCalleSteven/icc-pmw-U1-Proyecto.git](https://github.com/ArielCalleSteven/icc-pmw-U1-Proyecto.git)  
 **Página desplegada (GitHub Pages):** [https://pablot18.github.io/icc-ppw-u1-miPrimeraPapina/](https://pablot18.github.io/icc-ppw-u1-miPrimeraPapina/)  
 
 ---
@@ -157,4 +157,10 @@ El archivo `script.js` incorpora dos acciones básicas:
 
 * Agregar su captura de pantalla del proyecto final funcionando en el navegador, de ambas versiones (sin y con CSS/JS)
 
-![alt text](<Captura de pantalla 2025-10-14 a la(s) 3.35.33 p. m..png>)
+---
+### Versión 1: Solo Estructura HTML (Sin CSS/JS)
+![Captura de la estructura HTML] (./captura-html-puro.png)
+
+### Versión 2: Diseño Final (Con CSS/JS)
+![Captura de la versión final] (./captura-final.png)
+---
