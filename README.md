@@ -9,7 +9,7 @@
 **Unidad:** 1.2 – Estándares Web  
 **Estudiante:** Ariel Calle
 **Repositorio:** [https://github.com/ArielCalleSteven/icc-pmw-U1-Proyecto.git](https://github.com/ArielCalleSteven/icc-pmw-U1-Proyecto.git)  
-**Página desplegada (GitHub Pages):** [https://pablot18.github.io/icc-ppw-u1-miPrimeraPapina/](https://pablot18.github.io/icc-ppw-u1-miPrimeraPapina/)  
+**Página desplegada (GitHub Pages):** [https://arielcallesteven.github.io/icc-pmw-U1-Proyecto/](https://arielcallesteven.github.io/icc-pmw-U1-Proyecto/)  
 
 ---
 
