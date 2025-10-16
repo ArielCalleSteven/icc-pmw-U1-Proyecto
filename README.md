@@ -40,3 +40,15 @@
 </figure>
 
 <progress value="70" max="100">70%</progress>
+
+
+#  Práctica 2 – Adición de CSS y JavaScript
+
+### 1. Archivos agregados
+
+| Archivo | Descripción | Ubicación |
+| ----------- | --------------------------------------------------------------------------------------------------- | ------------------------- |
+| `style.css` | Contiene todos los estilos visuales del sitio (colores, tipografía, márgenes, botones, tabla, etc.) | Carpeta raíz del proyecto |
+| `script.js` | Contiene las funciones y eventos JavaScript que agregan comportamiento dinámico | Carpeta raíz del proyecto |
+
+Estructura final del proyecto:
